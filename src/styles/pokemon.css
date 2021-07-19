@@ -1,0 +1,10 @@
+.pokemon-box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.pokemon-box * {
+    display: inline-block;
+    align-self: flex-start;
+}
